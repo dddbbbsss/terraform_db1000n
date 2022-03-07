@@ -8,8 +8,8 @@ This module creates a number of servers in each of provided region. If you set `
 - Already present SSH key in DO account
 - Terraform
 
-![[SCR-20220306-sq0.png]]
-![[SCR-20220306-sqw.png]]
+![[./img/SCR-20220306-sq0.png]]
+![[./img/SCR-20220306-sqw.png]]
 
 ## ADD API key
 `./module/variables.tf`
