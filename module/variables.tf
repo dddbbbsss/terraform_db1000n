@@ -1,13 +1,13 @@
 # Adjust number of servers to match your load
-variable "number_of_servers" {
-  description = "Number of servers which will create in each of provided region"
-  default     = ""
-}
+#variable "number_of_servers" {
+#  description = "Number of servers which will create in each of provided region"
+#  default     = ""
+#}
 
-variable "do_token" {
-  type    = string
-  default = "952e2"
-}
+#variable "do_token" {
+#  type    = string
+#  default = "952e2"
+#}
 
 variable "pub_key" {
   default = "~/.ssh/id_rsa.pub"
