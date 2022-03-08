@@ -9,10 +9,7 @@ This module creates a number of servers in each of provided region. If you set `
 - Terraform
 
 ![](https://raw.githubusercontent.com/dddbbbsss/terraform_db1000n/main/img/SCR-20220306-sq0.png)
-
-
-![[SCR-20220306-sq0.png]]
-![[SCR-20220306-sqw.png]]
+![](https://raw.githubusercontent.com/dddbbbsss/terraform_db1000n/main/img/SCR-20220306-sqw.png)
 
 ## ADD API key
 `./module/variables.tf`
