@@ -9,7 +9,10 @@ This module creates a number of servers in each of provided region. If you set `
 - Terraform
 
 ![](https://raw.githubusercontent.com/dddbbbsss/terraform_db1000n/main/img/SCR-20220306-sq0.png)
-![](https://raw.githubusercontent.com/dddbbbsss/terraform_db1000n/main/img/SCR-20220306-sqw.png)
+
+
+![[SCR-20220306-sq0.png]]
+![[SCR-20220306-sqw.png]]
 
 ## ADD API key
 `./module/variables.tf`
@@ -46,6 +49,9 @@ module "db1000n" {
 ```
 
 `count =` - it's number of droplets creates in each of `regions` 
+
+Version - `db1000n_version = "v0.5.20"` actual version you may get [there](https://github.com/Arriven/db1000n/releases)
+
 
 ## Also means 
 you are using ssh keys with name `~/.ssh/id_rsa.pub` if not, change it in `./module/variables.tf` these variables `variable "pub_key"` and `variable "pvt_key"`

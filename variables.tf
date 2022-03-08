@@ -6,5 +6,5 @@ variable "number_of_servers" {
 
 variable "do_token" {
   type    = string
-  default = "get_a_key_in_api"
+  default = "API_tokeN_52e2"
 }
